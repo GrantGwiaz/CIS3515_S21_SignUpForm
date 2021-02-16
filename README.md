@@ -3,4 +3,4 @@
 This program
 
 
-(./device-2021-02-15-222901.png)
+![Screenshot](device-2021-02-15-222901.png)
