@@ -38,8 +38,8 @@
 
     <TextView
         android:id="@+id/TextViewPasswordConfirmErr"
-        android:layout_width="75dp"
-        android:layout_height="47dp"
+        android:layout_width="74dp"
+        android:layout_height="62dp"
         android:layout_marginStart="12dp"
         android:alpha="0"
         android:text="@string/password_confirm_err"
