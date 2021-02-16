@@ -53,4 +53,44 @@
         android:inputType="textPersonName"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/TextViewNameErr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="180dp"
+        android:text="TextView"
+        app:layout_constraintStart_toEndOf="@+id/editTextTextPersonName"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/TextViewEmailErr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="48dp"
+        android:text="TextView"
+        app:layout_constraintStart_toEndOf="@+id/editTextTextEmailAddress"
+        app:layout_constraintTop_toBottomOf="@+id/TextViewNameErr" />
+
+    <TextView
+        android:id="@+id/TextViewPasswordErr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="52dp"
+        android:text="TextView"
+        app:layout_constraintStart_toEndOf="@+id/editTextTextPassword"
+        app:layout_constraintTop_toBottomOf="@+id/TextViewEmailErr" />
+
+    <TextView
+        android:id="@+id/TextViewPasswordConfirmErr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="44dp"
+        android:text="TextView"
+        app:layout_constraintStart_toEndOf="@+id/editTextTextPassword2"
+        app:layout_constraintTop_toBottomOf="@+id/TextViewPasswordErr" />
 </androidx.constraintlayout.widget.ConstraintLayout>
