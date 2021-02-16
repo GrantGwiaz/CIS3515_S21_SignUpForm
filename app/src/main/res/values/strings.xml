@@ -1,7 +1,19 @@
 <resources>
     <string name="app_name">SignUpForm</string>
-    <string name="name_hint">Enter Your Name</string>
-    <string name="email_hint">Enter Email Address</string>
-    <string name="password_hint">Enter Password</string>
-    <string name="password_confirm_hint">Confirm Password</string>
+    <string name="name">Enter Name</string>
+    <string name="email">Enter Email</string>
+    <string name="password">Enter Password</string>
+    <string name="password_confirm">Confirm Password</string>
+
+    <string name="save">Save</string>
+
+    <string name="name_hint">Name</string>
+    <string name="email_hint">name@example.com</string>
+    <string name="password_hint">Password</string>
+    <string name="password_confirm_hint">Password</string>
+
+    <string name="name_err">Enter a Name</string>
+    <string name="email_err">Enter an Email</string>
+    <string name="password_err">Enter a Password</string>
+    <string name="password_confirm_err">Password must match</string>
 </resources>
